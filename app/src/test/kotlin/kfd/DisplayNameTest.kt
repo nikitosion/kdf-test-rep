@@ -8,4 +8,9 @@ class DisplayNameTest {
     fun preservesName() {
         assertEquals("Annie", displayName("Annie"))
     }
+
+    @Test
+    fun handlesName() {
+        assertEquals("Guest", displayName(null))
+    }
 }
