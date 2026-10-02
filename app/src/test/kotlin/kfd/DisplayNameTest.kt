@@ -10,7 +10,7 @@ class DisplayNameTest {
     }
 
     @Test
-    fun handlesName() {
+    fun handlesNull() {
         assertEquals("Guest", displayName(null))
     }
 }
