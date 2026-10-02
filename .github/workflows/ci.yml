@@ -21,3 +21,6 @@ jobs:
 
       - name: Assemble
         run: bash ./gradlew assemble --no-daemon
+
+      - name: Tests
+        run: bash ./gradlew test --no-daemon
